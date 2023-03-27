@@ -187,6 +187,7 @@ def align_scenes_mark_1by1(source_path, target_path, sv_path):
 	mesh.visual.material.diffuse = 255 * np.ones_like(mesh.visual.material.diffuse)
 	mesh.visual.material.specular = 255 * np.ones_like(mesh.visual.material.specular)
 	mesh.export(sv_path)
+	print('Saved in ', sv_path)
 
 
 def mark_fp_double(source_path, target_path):
@@ -217,6 +218,7 @@ def align_scenes(source_path, target_path, sv_path):
 	mesh.visual.material.diffuse = 255 * np.ones_like(mesh.visual.material.diffuse)
 	mesh.visual.material.specular = 255 * np.ones_like(mesh.visual.material.specular)
 	mesh.export(sv_path)
+	print('Saved in ', sv_path)
 
 
 if __name__ == '__main__':
