@@ -20,4 +20,4 @@
 
 - >  python calibrate.py
 
-- Mark the selected feature points in two UI frames (source & target). Press Q to quit.
+- Mark the selected feature points in two UI frames (source & target). Press Q to quit, P to pick, D to delete the last, S to save screenshot, X to undo, and Y to redo.
